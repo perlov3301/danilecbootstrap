@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>bootstrap</title>
-        <link rel="stylesheet" type="text/css" href="./bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="./bs/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="./styles.css">
-        <script src="./popper.min.js" ></script>
-        <script src="./popper.min.js.map"></script>
-        <script src="./bootstrap.min.js"></script>
-        <script src="./bootstrap.min.js.map"></script>
+        <script src="./bs/popper.min.js" ></script>
+        <script src="./bs/popper.min.js.map"></script>
+        <script src="./bs/bootstrap.min.js"></script>
+        <script src="./bs/bootstrap.min.js.map"></script>
         <style> </style>
     </head>
     <body>
@@ -17,47 +17,48 @@
           <nav class="py-3 navbar navbar-expand-lg fixed-top auto-hiding-navbar">
   <div class="container">
     <a class="navbar-brand" href="#1">
-      
-      <!-- <img src="./logo1.png" class="logo" alt="logo" />   -->
-      <div id="logoimg" ></div><span style="font-size: 0.3rem;">Software Engineer</span>
+      <img src="./assets/logo1.png" class="logo" alt="logo" />Wanted
+      <!-- <div id="logoimg" ></div><span style="font-size: 0.3rem;">&nbsp;Wanted</span>   -->
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav  ms-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#0">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="#2">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#3">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#4">Contact</a>
         </li>
       </ul>
     </div>
   </div>
-</nav>
-        <!--end navbar-->
+</nav> <!--end navbar-->
         <!--Hero section-->       
         <section id="hero">
+          <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1>Software <br>Development</h1>
+                    <h1 style="padding-top: 3rem;" >Software <br>Development</h1>
                     <p>hello World1</p>
                 </div>
+                <button type="button" class="btn btn-dark btn-lg">Large button</button>
                 <div class="col img-col">
-                    <img src="./me1.jpeg" 
+                    <img src="./assets/me1.jpeg" 
                       class="img-fluid" alt="Software Development">
                 </div>
             </div>
             <div class="row cards">
                 
             </div>
+          </div>  
         </section>
     </body>
 </html>
