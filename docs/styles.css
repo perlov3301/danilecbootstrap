@@ -54,13 +54,19 @@ section p {
 
 button {
     max-width: 50%;
-    border-radius: 50px !important;
+    border-radius: 30px !important;
 }
+
+.my { border-radius: 1rem; }
+.my-top { 
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+ }
 
 #hero .col {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
 }
 
 #hero .img-col {
@@ -71,6 +77,8 @@ button {
 #hero img {
     max-width: 130% !important;
     width: 130%;
+    border-radius: 1rem;
+    margin-bottom: 50px;
 }
 
 #hero .card {
@@ -83,6 +91,7 @@ button {
     width: 50px;
     height: 50px;
     margin-bottom: 20px;
+    border-radius: 10%;
 }
 
 #logoimg {
@@ -90,4 +99,18 @@ button {
     background: url(./logo3.png);
     width: 70px;
     height: 50px;
+}
+
+#projects .projects {
+    margin-bottom: 50px;
+}
+
+#contact{
+    text-align: center;
+    background-color: #683aa4;
+    color: white;
+}
+#contact h1 {
+    text-align: center;
+    color: white;
 }
